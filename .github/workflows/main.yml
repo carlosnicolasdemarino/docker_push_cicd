@@ -25,5 +25,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: carlosdemarino/prueba_docker
+          tags: docker push carlosnicolas/prueba_docker:tagname
     
